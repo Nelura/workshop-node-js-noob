@@ -1,3 +1,5 @@
+var input = require('./');
+
 exports.run = function(input) {
-  console.log("Exercise #2");
+  console.log(input.split());
 };
